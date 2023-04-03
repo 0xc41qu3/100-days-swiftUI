@@ -18,7 +18,7 @@ for i in 1...10 {
     print()
 }
 
-//not inclusve range
+//not inclusive range
 for i in 0..<3 {
     print(i) // 0 1 2
 }
