@@ -59,7 +59,7 @@ enum OperationError: Error {
 func sqrt(_ number: Int) throws -> Int {
     if number < 1 || number > 10_000 { throw OperationError.outOfBounds }
         
-    var result: Int = -1
+    var result = -1
     
     for i in 1...100 {
         if i * i == number {
