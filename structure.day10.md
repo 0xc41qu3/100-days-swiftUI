@@ -1,4 +1,4 @@
-# Strcutures in Swift
+# Structures in Swift
 
 ```swift
 //Structs
