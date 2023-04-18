@@ -20,7 +20,7 @@ var days: Int? = nil
 //The constant with the same name is allowed since it only belongs to the if statement's scope.
 //This technique is called shadowing.
 if let days = days {
-    print("Wil be off for \(days) days.")
+    print("You'll be off for \(days) days.")
 } else {
     print("Keep working...")
 }
