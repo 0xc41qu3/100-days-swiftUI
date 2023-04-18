@@ -14,7 +14,7 @@ if let stateOfChosenCity = stateByCity[chosenCity] {
     print("No city has been chosen city.")
 }
 
-//`nill` represent a valueless state.
+//`nil` represent a valueless state.
 var days: Int? = nil
 
 //The constant with the same name is allowed since it only belongs to the if statement's scope.
